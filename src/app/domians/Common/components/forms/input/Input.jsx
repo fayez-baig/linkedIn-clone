@@ -34,7 +34,7 @@ const Input = ({
 
   return withIcon ? (
     <div className="relative">
-      <div className="absolute inset-y-0 left-0 flex items-center pl-8 mt-1 mr-5 pointer-events-none">
+      <div className="absolute inset-y-0 left-0 flex items-center pl-4 mt-1 mr-5 pointer-events-none">
         {icon}
       </div>
       {input}
