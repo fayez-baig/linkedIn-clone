@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { SvgIcon } from "../../../Common/components/svg-icon";
+import HeaderContent from "./HeaderContent";
 
 const Header = ({ handleIsSidebarOpen }) => {
   // const history = useHistory();
@@ -30,27 +30,11 @@ const Header = ({ handleIsSidebarOpen }) => {
   };
 
   return (
-    <header className="z-40 py-2 shadow-md lg:shadow-none shadow-bottom bg-light-mode dark:bg-dark-mode">
+    <header className="fixed top-0 left-0 right-0 z-50 w-full py-4 shadow-md lg:shadow-none shadow-bottom bg-light-mode dark:bg-dark-mode">
       <div className="container flex items-center justify-between h-full px-3 mx-auto text-theme-color-light dark:text-theme-color-dark">
-        {/* <!-- Mobile hamburger --> */}
-        <button
-          onClick={handleIsSidebarOpen}
-          className="p-1 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-green-200"
-          aria-label="Menu"
-        >
-          <SvgIcon className="w-6 h-6" icon="MenuIcon" />
-        </button>
-
-        <div className="flex justify-center flex-1 h-10">
-          <NavLink to="/home" className="block lg:hidden">
-            {/* <img
-              loading="lazy"
-              className="h-10 cursor-pointer lg:ml-0"
-              src={Islaamify360Logo}
-              alt="Islaamify360-Logo"
-              width="133"
-              height="40"
-            /> */}
+        <div className="w-full h-10">
+          <NavLink to="/home" className="block">
+            <HeaderContent />
           </NavLink>
         </div>
         <ul className="flex items-center flex-shrink-0 space-x-6">
@@ -62,9 +46,9 @@ const Header = ({ handleIsSidebarOpen }) => {
               aria-haspopup="true"
             >
               {mode === "light" ? (
-                <span className="w-5 h-5 mx-auto animate-spin">🌚</span>
+                <span className="w-5 h-5 animate-spin">🌚</span>
               ) : (
-                <span className="w-5 h-5 mx-auto animate-spin">💡</span>
+                <span className="w-5 h-5 animate-spin">💡</span>
               )}
 
               {/* <!-- Notification badge --> */}

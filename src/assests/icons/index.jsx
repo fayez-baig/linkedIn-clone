@@ -1,9 +1,16 @@
 // import { ReactComponent as SunIcon } from './sun.svg';
 // import { ReactComponent as MoonIcon } from './moon.svg';
 // import { ReactComponent as SearchIcon } from './search.svg';
-// import { ReactComponent as HomeIcon } from './home.svg';
 // import { ReactComponent as ForbiddenIcon } from './forbidden.svg';
 
+import { ReactComponent as HomeIcon } from "./home.svg";
+import { ReactComponent as NetworkIcon } from "./network.svg";
+import { ReactComponent as MessageIcon } from "./message.svg";
+import { ReactComponent as NotificationIcon } from "./notification.svg";
+import { ReactComponent as WorkIcon } from "./work.svg";
+import { ReactComponent as PostJobIcon } from "./post-job.svg";
+
+import { ReactComponent as JobIcon } from "./job.svg";
 import { ReactComponent as MenuIcon } from "./menu.svg";
 import { ReactComponent as PlayListVideIcon } from "./playlist-video.svg";
 import { ReactComponent as CategoryIcon } from "./category-icon.svg";
@@ -22,6 +29,7 @@ import { ReactComponent as SpeakerRecitationIcon } from "./speaker-recitation.sv
 import { ReactComponent as UrduHindiIcon } from "./ur-hi.svg";
 import { ReactComponent as EnglishIcon } from "./english.svg";
 import { ReactComponent as FeedbackIcon } from "./feedback.svg";
+import { ReactComponent as LinkedInIcon } from "./linkedIn.svg";
 
 export {
   UrduHindiIcon,
@@ -41,4 +49,12 @@ export {
   MenuIcon,
   Error404Icon,
   FeedbackIcon,
+  HomeIcon,
+  LinkedInIcon,
+  NetworkIcon,
+  JobIcon,
+  MessageIcon,
+  NotificationIcon,
+  WorkIcon,
+  PostJobIcon,
 };

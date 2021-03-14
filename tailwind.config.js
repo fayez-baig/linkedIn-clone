@@ -18,7 +18,7 @@ module.exports = {
         "dark-mode": "#1E1F26",
         "dark-mode-content-bg": "#000000",
         "light-mode": "#ffffff",
-        "light-mode-content-bg": "#F5F5F5",
+        "light-mode-content-bg": "#F3F2EF",
         "light-mode-text": "#3c3c3c",
         "dark-mode-text": "#cccccc",
       },

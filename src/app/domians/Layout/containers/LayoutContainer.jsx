@@ -7,7 +7,7 @@ import Header from "../../Layout/components/header/Header";
 
 const cls = {
   layout:
-    "flex h-screen bg-light-mode-content-bg dark:bg-dark-mode-content-bg text-gray-500 dark:text-gray-200",
+    "flex h-full bg-light-mode-content-bg dark:bg-dark-mode-content-bg text-gray-500 dark:text-gray-200",
   mainWrapper: "flex flex-col flex-1 w-full",
 };
 
