@@ -9,7 +9,7 @@ const HeaderContent = () => {
       <div className="flex items-center w-full lg:mr-48 lg:w-1/3">
         <img
           loading="lazy"
-          className="hidden w-10 h-10 mx-0 ml-10 mr-3 cursor-pointer lg:block"
+          className="hidden w-10 h-10 mx-0 mr-3 cursor-pointer ml-9 lg:block"
           src={LinkedInIcon}
           alt="Islaamify360-Logo"
           width="133"
